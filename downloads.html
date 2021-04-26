@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="ColemaQ keyboard layout">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/colemaq.css">
+	<title>Downloads</title>
+</head>
+
+<body>
+    <h1><center>ColemaQ</center></h1>
+
+    <div class="navigation">
+         <ul>
+            <a href="index.html" class="btn">Home</a>
+            <a href="variants.html" class="btn">Variants</a>
+            <a href="downloads.html" class="btn">Downloads</a>
+            <a href="community.html" class="btn">Community</a>
+        </ul> 
+    </div>
+
+	<section>
+        <h2>Windows</h2>
+
+        <h3>Installation setup</h3>
+        <ul>
+            <h3>ISO</h3>
+            <li><a href="https://github.com/colemaq/colemaq-windows">ColemaQ</a></li>
+            <li><a href="https://github.com/colemaq/colemaq-windows">ColemaQ-F</a></li>
+            <li><a href="https://github.com/colemaq/colemaq-windows">ColemaQ-ID</a></li>
+            <br>
+            <h3>ANSI</h3>
+            <li><a href="https://github.com/colemaq/colemaq-windows">ColemaQ</a></li>
+            <li><a href="https://github.com/colemaq/colemaq-windows">ColemaQ-F</a></li>
+            <li><a href="https://github.com/colemaq/colemaq-windows">ColemaQ-ID</a></li>
+        </ul>
+
+        <ul>
+            <h3>Auto Hot Key</h3>
+            <li><a href="https://github.com/colemaq/colemaq-windows">ColemaQ</a></li>
+            <li><a href="https://github.com/colemaq/colemaq-windows">ColemaQ-F</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Linux</h2>
+        <div class="text">
+        </div>
+
+        <ul>
+            <li><a href="https://github.com/colemaq/colemaq-linux">XKB</a></li>
+        </ul>
+        <ul>
+            <h3>Kmonad</h3>
+            <li><a href="https://github.com/colemaq/colemaq-linux">ColemaQ</a></li>
+            <li><a href="https://github.com/colemaq/colemaq-linux">ColemaQ-F</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Windows installation instructions</h2>
+        <div class="text">
+        Unzip the archive and run the setup.exe file. You may need
+        to reboot your computer to see the layout.
+        </div><br>
+
+        <div class="text">
+        Alternatively you can run an Auto Hot Key script to use the
+        layout. This is convenient if you don't have privileges to
+        install the setup scripts.
+        </div>
+    </section>
+
+    <section>
+        <h2>Linux installation instructions</h2>
+        <div class="text">
+        Copy the xkb file to <b>/usr/share/X11/xkb/symbols/</b> and load
+        the layout using <b>setxkbmap -layout colemaq</b><br><br>
+        Use the <b>-variant</b> option to load a different ColemaQ variant
+
+        <ul>
+            <li>ColemaQ-F (ANSI) <b>-variant f</b></li>
+            <li>ColemaQ-ID (ANSI) <b>-variant id</b></li>
+            <li>ColemaQ-Wide (ANSI) <b>-variant wide</b></li>
+            <br>
+            <li>ColemaQ (ISO) <b>-variant iso</b></li>
+            <li>ColemaQ-F (ISO) <b>-variant f_iso</b></li>
+            <li>ColemaQ-ID (ISO) <b>-variant id_iso</b></li>
+            <li>ColemaQ-Wide (ISO) <b>-variant wide_iso</b></li>
+        </ul>
+
+        <div class="text">
+        For example to set the layout to ColemaQ-F on an ISO board
+        use the command <b>setxkbmap -layout colemaq -variant f_iso</b>
+
+        </div>
+	</section>
+
+
+
+</body>
+</html>
