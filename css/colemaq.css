@@ -8,39 +8,6 @@
 	src: url(../fonts/Alata-Regular.ttf) format("truetype");
 }
 
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 4em;
-    }
-}
-
-@media (max-aspect-ratio: 4 / 3) {
-	section {
-		width: 60vw;
-	}
-}
-
-@media (orientation: portrait) {
-	section {
-		width: unset;
-	}
-}
-
-@media (pointer: none), (pointer: coarse) {
-	html {
-		font-size: 1rem;
-	}
-
-	body {
-		margin: 1rem;
-	}
-
-	section {
-		padding: 1rem;
-		margin: 1rem 0;
-	}
-}
-
 html {
 	font-size: 1.2em;
 	scrollbar-width: thin;
@@ -134,11 +101,6 @@ a[disabled] {
     text-align: center;
 }
 
-.navigation ul li {
-    display: inline;
-    padding: 5px;
-}
-
 .text {
     text-indent: 40px;
     text-align: justify;
@@ -160,12 +122,13 @@ a[disabled] {
     display: inline-flex;
     height: 45px;
     width: 150px;
-    border: 2px solid #111111;
     margin: 10px 10px 10px 10px;
+
+    border: 2px solid #111111;
     color: #111111;
+
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
@@ -190,4 +153,44 @@ a[disabled] {
 
 .btn:hover {
   color: #ebe5d7;
+}
+
+@media screen and (max-width: 768px) {
+    center {
+        font-size: 15px;
+    }
+
+    body {
+        margin: 1rem;
+    }
+
+    section {
+        padding: 2rem;
+}
+
+@media (max-aspect-ratio: 4 / 3) {
+	section {
+		width: 60vw;
+	}
+}
+
+@media (orientation: portrait) {
+	section {
+		width: unset;
+	}
+}
+
+@media (pointer: none), (pointer: coarse) {
+	html {
+		font-size: 1rem;
+	}
+
+	body {
+		margin: 1rem;
+	}
+
+	section {
+		padding: 1rem;
+		margin: 1rem 0;
+	}
 }
