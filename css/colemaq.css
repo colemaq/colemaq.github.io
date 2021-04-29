@@ -157,7 +157,7 @@ a[disabled] {
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 80px;
+        font-size: 4rem;
     }
 
     body {
@@ -173,16 +173,5 @@ a[disabled] {
 @media (orientation: portrait) {
 	section {
 		width: unset;
-	}
-}
-
-@media (pointer: none), (pointer: coarse) {
-	body {
-		margin: 1rem;
-	}
-
-	section {
-		padding: 1rem;
-		margin: 1rem 0;
 	}
 }
