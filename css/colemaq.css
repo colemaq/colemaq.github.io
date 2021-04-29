@@ -156,22 +156,18 @@ a[disabled] {
 }
 
 @media screen and (max-width: 768px) {
-    center {
-        font-size: 15px;
+    h1 {
+        font-size: 80px;
     }
 
     body {
-        margin: 1rem;
+        margin: 0.3rem;
     }
 
     section {
         padding: 2rem;
-}
-
-@media (max-aspect-ratio: 4 / 3) {
-	section {
-		width: 60vw;
-	}
+        margin: 1rem auto;
+    }
 }
 
 @media (orientation: portrait) {
@@ -181,10 +177,6 @@ a[disabled] {
 }
 
 @media (pointer: none), (pointer: coarse) {
-	html {
-		font-size: 1rem;
-	}
-
 	body {
 		margin: 1rem;
 	}
