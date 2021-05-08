@@ -101,7 +101,11 @@ a[disabled] {
 }
 
 summary {
-	cursor: pointer;
+    cursor: pointer;
+}
+
+div.dropdown-text {
+    margin-left: 40px;
 }
 
 .navigation {
