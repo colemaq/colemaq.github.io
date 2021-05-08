@@ -100,6 +100,10 @@ a[disabled] {
 	pointer-events: none;
 }
 
+summary {
+	cursor: pointer;
+}
+
 .navigation {
     text-align: center;
 }
