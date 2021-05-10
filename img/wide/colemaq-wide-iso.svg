@@ -80,9 +80,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="1140.496"
-     inkscape:cy="592.90204"
+     inkscape:zoom="1"
+     inkscape:cx="1553.4489"
+     inkscape:cy="640.46269"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -94,10 +94,10 @@
      guidetolerance="10"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="false"
-     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="false"
      inkscape:snap-bbox-midpoints="false"
      inkscape:window-width="1600"
-     inkscape:window-height="858"
+     inkscape:window-height="874"
      inkscape:window-x="900"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -107,7 +107,7 @@
      fit-margin-right="10"
      fit-margin-bottom="10"
      lock-margins="true"
-     inkscape:snap-nodes="true">
+     inkscape:snap-nodes="false">
     <inkscape:grid
        type="xygrid"
        id="grid1742"
@@ -125,7 +125,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -514,7 +514,7 @@
        aria-label="."
        id="text236-8-7"
        style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       transform="translate(39.753765,-4.2227709)">
+       transform="translate(-3.7881674,-1.875722)">
       <path
          d="m 442.98474,184.96072 q 0,-0.55576 0.26631,-1.01889 0.2663,-0.46314 0.72943,-0.72944 0.46314,-0.27788 1.03048,-0.27788 0.57891,0 1.04205,0.27788 0.47471,0.2663 0.74101,0.72944 0.26631,0.46313 0.26631,1.01889 0,0.56734 -0.26631,1.04205 -0.2663,0.46314 -0.74101,0.74102 -0.46314,0.2663 -1.04205,0.2663 -0.56734,0 -1.03048,-0.2663 -0.46313,-0.27788 -0.72943,-0.74102 -0.26631,-0.47471 -0.26631,-1.04205 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.264583"
@@ -524,7 +524,7 @@
        aria-label=","
        id="text240-7-5"
        style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       transform="translate(-47.36685,-3.8811207)">
+       transform="translate(-3.6704334,-3.351962)">
       <path
          d="m 489.00298,183.05608 q 0.53261,0 0.96101,0.25472 0.4284,0.24315 0.67154,0.67154 0.24315,0.41683 0.24315,0.92627 0,0.4284 -0.10421,0.8568 -0.1042,0.4284 -0.34735,0.96101 l -1.87569,4.29557 h -1.75991 l 1.11152,-4.57345 q -0.34735,-0.25473 -0.55576,-0.65997 -0.19683,-0.41682 -0.19683,-0.87996 0,-0.50944 0.24314,-0.92627 0.24315,-0.42839 0.65997,-0.67154 0.4284,-0.25472 0.94942,-0.25472 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5778px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code';stroke-width:0.264583"
